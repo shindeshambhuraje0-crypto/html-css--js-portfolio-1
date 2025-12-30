@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquwries.css">
+    
+</head> 
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Shambhuraje Shinde</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experince">Experince</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+
+    </nav>
+    <nav id="hamburger-nav">
+        <div>
+      <div class="logo">Shambhuraje Shinde</div>
+      <div class="hamburger-menu"></div>  
+      <div class="hamburger-icon" onclick="tonglemenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>  
+      <div class="menu-links">
+        <li><a href="#about" onclick="tonglemenu()">About</a></li>
+        <li><a href="#experince"  onclick="tonglemenu()">Experince</a></li>
+        <li><a href="#projects"  onclick="tonglemenu()">Projects</a></li>
+        <li><a href="#contact"  onclick="tonglemenu()">Contact</a></li>
+      </div>    
+        </div>
+    </nav>
+ <script src="script.js"></script>
+</body>
+</html>
